@@ -1,0 +1,26 @@
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    right: auto;
+    left: auto;
+    padding: 15px;
+    border: 1px solid #eee;
+    width: 560px;
+    border-radius: 12px;
+    margin: 20px;
+}
+
+.success{
+    background-color: aqua;
+}
+
+.warning {
+    background-color: chocolate;
+}
+.alert {
+    background-color: rgb(185, 245, 45);
+}
