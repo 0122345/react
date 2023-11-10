@@ -1,4 +1,5 @@
 import Header from './components/Header';
+import { Footer } from './components/Footer';
 import { TaskList } from './components/TaskList';
 
 import './App.css';
@@ -12,6 +13,7 @@ import './App.css';
        <div className="App">
          <Header />
           <TaskList />
+          <Footer />
         </div>
     </div>
    );

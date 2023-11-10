@@ -1,8 +1,8 @@
-import { TaskList } from "./TaskList";
+import "./taskCard.css";
 
 export const TaskCard = ({ task, handleDelete}) => {
   return (
-    <li className={task.completed ? "completed" : "uncompleted"}>
+    <li className={`taskcard ${task.completed ? "completed" : "uncompleted"}`}>
         <span>
         {task.id} - {task.name}  
         </span>

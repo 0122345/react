@@ -26,10 +26,10 @@ export const TaskList = (props) => {
   }
 
   return (
-    <>
+    <div className="tasklist">
     <h1>Task List {props.title} {props.subtitle}</h1>
     <ul>
-     <button className="trigger" onClick={() => setShow(!show)}>Toggle</button>
+     <button className="trigger" onClick={() => setShow(!show)}>{show ? "hide" : "show"}</button>
      { show && tasks.map((task) => (
        <TaskCard key={task.id} task={task} handleDelete={handleDelete}/>
      ))
@@ -53,7 +53,7 @@ export const TaskList = (props) => {
 
      </BoxCard>
 
-     {/* <BoxCard result='  '>
+     { <BoxCard result='alert'>
      <p className="title">
         Lorem ipsum dolor sit.
       </p>
@@ -65,8 +65,9 @@ export const TaskList = (props) => {
 
       </p>
 
-     </BoxCard> */}
+     </BoxCard> 
+    }
 
-    </>
+    </div>
   );
 }
