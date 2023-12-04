@@ -1,0 +1,53 @@
+.addtask {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    box-shadow: rgba(0, 0,0, 0.02) 0px 1px 3px 0px, rgb(27, 31, 35, 0.15);
+    border-radius: 5px;
+}
+
+.addtask form {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.addtask label {
+    font-size: 20px;
+    margin-right: 5px;
+
+}
+
+.addtask input {
+    font-size: 19px;
+    padding: 7px;
+    border: 1px solid #878787;
+    border-radius: 5px;
+    flex-grow: 1;
+    margin: 10px;
+}
+
+.addtask select {
+    font-size: 18px;
+    padding: 7px;
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+ .addtask button {
+    background-color: green;
+    font-size: 18px;
+    padding: 7px 10px;
+    margin: 10px;
+ }
+
+ .addtask span {
+    border: 1px solid #724f4f;
+    background-color: red;
+    width: 68px;
+    height: relative;
+    padding: 14px;
+    border-radius: 8px;
+ }
